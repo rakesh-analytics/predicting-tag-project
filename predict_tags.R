@@ -178,7 +178,7 @@ length_count[,8] = length_count[,5] / length_count[,3] * 100
 length_count[,9] = length_count[,6] / length_count[,3] * 100
 
 
-
+#Rounding Off the percentages
 length_count[,7:9] =  round(length_count[,7:9] , digits = 2)
 
 colnames(length_count) = c("title_len" , "cont_len" , "tag_len" , "tagintitle_count" , 
